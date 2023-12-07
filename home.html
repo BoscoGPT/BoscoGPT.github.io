@@ -35,11 +35,6 @@
             font-size: 1.0rem;
         }
 
-        li:hover {
-            font-size: 1.5rem;
-            color: rgb(128, 42, 207);
-        }
-
         li {
             list-style-type: none;
             display: inline;
@@ -50,6 +45,10 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+        }
+
+        .left {
+            font-size: 1.5rem;
         }
 
         .left:hover {
@@ -113,6 +112,25 @@
             font-size: 2.5rem;
             padding-bottom: 50px;
         }
+
+        footer {
+            min-height: 30vh;
+            background-color: rgb(133, 133, 133);
+        }
+
+        .fh {
+            font-size: 2rem;
+        }
+        .ft {
+            font-size: 1.5rem;
+            padding-left: 20px;
+        }
+        td {
+            padding-right: 80px;
+        }
+        .table{
+            padding-left: 50px;
+        }
     </style>
     <script src="https://kit.fontawesome.com/6557b456f0.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -123,32 +141,34 @@
 <body>
     <header>
         <div class="topinfo">
-            <marquee behavior="SCROLL" direction="right"><a href="info.html">Info on BoscoBOT</a></marquee>
+            <marquee behavior="ALTERNATE" direction="right"><a href="info.html">Info on BoscoBOT</a></marquee>
         </div>
         <nav>
             <div class="left">
                 <a href="home.html">BoscoBOT</a>
             </div>
             <div class="right">
-                <ul>
+                <Ol type="1">
                     <li>
-                        <a href="home.html">Home</a>
+                        <a href="home.html"><i class="fa-solid fa-house fa-xl fa-beat-fade" style="color: #ffffff;"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="abu.html">About Us</a>
+                        <a href="ctu.html">
+                            <i class="fa-solid fa-envelope-circle-check fa-xl fa-beat" style="color: #ffffff;"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="ctu.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="try.html">Try It</a>
+                        <a href="try.html">
+                            <i class="fa-solid fa-wand-magic-sparkles fa-beat-fade fa-xl" style="color: #ffffff;"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="menu.html">
-                            <i class="fa-solid fa-bars fa-flip" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-bars fa-xl fa-flip" style="color: #ffffff;"></i>
                         </a>
                     </li>
-                </ul>
+                    </ul>
             </div>
         </nav>
     </header>
@@ -159,9 +179,9 @@
                     WELCOME TO BOSCOBOT
                 </div>
                 <div class="l1t">
-                    BoscoBOT is an interactive bot which acts as a guide for all the visitors. It is a user-friendly and
-                    informative bot which is equipped with technologies that can present information according to the
-                    queries that the visitors may ask about.
+                    BoscoBOT is an interactive bot that serves as a guide for all visitors. It is a user-friendly and
+                    informative bot equipped with technologies that can present information according to visitors'
+                    queries.
                 </div>
             </div>
             <div class="r1">
@@ -170,18 +190,44 @@
         </section>
         <section class="two">
             <div class="r2">
-                <img src="Untitled design.png"
-                    alt="">
+                <img src="Website_1.png" alt="">
             </div>
             <div class="l2">
                 <div class="l2h">
                     WHAT CAN IT DO
                 </div>
                 <div class="l2t">
-                    BoscoBot provides assistance to all the visitors and also resolve queries related to the school.
+                    BoscoBOT provides assistance to all visitors and also solves queries about the school.
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="fh">
+            <center>
+                <a href="home.html">BoscoBOT</a><br>
+                
+            </center>
+        </div>
+        <div class="ft">
+            <table class="table">
+                <tr>
+                    <td><a href="www.mail.google.com"> Our Email Account <i class="fa-brands fa-at"></i></a></td>
+                    <td><a href="www.instagram.com"> Our Instagram <i class="fa-brands fa-instagram"></i></a></td>
+                    <td><a href="www.facebook.com"> Our Facebook <i class="fa-brands fa-facebook"></i></a></td>
+                    <td><a href="www.youtube.com"> Our Youtube <i class="fa-brands fa-youtube"></i></a></td>
+                    <td> Our Phone no. <i class="fa-solid fa-phone"></i> +91 0000000000</td>
+                </tr>
+                <tr>
+                    <td><a href="www.x.com"> Our X (formerly twitter) <i class="fa-brands fa-x-twitter"></i></a></td>
+                    <td><a href="www.linkedin.com"> Our LinkedIn &nbsp;<i class="fa-brands fa-linkedin"></i></a></td>
+                    <td><a href="www.pinterest.com"> Our Pinterest <i class="fa-brands fa-pinterest"></i></a></td>
+                    <td><a href="www.telegram.com"> Our Telegram <i class="fa-brands fa-telegram"></i></a></td>
+                    <td><a href="www.github.com"> Our Github <br><i class="fa-brands fa-github"></i></a></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
 </body>
+
 </html>
