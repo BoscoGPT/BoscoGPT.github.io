@@ -117,6 +117,7 @@
             min-height: 30vh;
             background-color: rgb(255, 255, 255);
             color: gray;
+            height: 200px;
         }
 
         .fh {
@@ -124,13 +125,23 @@
         }
         .ft {
             font-size: 1.5rem;
-            padding-left: 20px;
         }
-        td {
-            padding-right: 80px;
+        .td {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;           
         }
-        .table{
-            padding-left: 50px;
+        .tr{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100px;
+        }
+        .ftext{
+            background-color: #ffffff;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 50px;
         }
     </style>
     <script src="https://kit.fontawesome.com/6557b456f0.js" crossorigin="anonymous"></script>
@@ -211,22 +222,42 @@
             </center>
         </div>
         <div class="ft" style="color: gray;">
-            <table class="table" style="color: gray;">
-                <tr style="color: gray;">
-                    <td><a href="www.mail.google.com" style="color: gray;"> Our Email Account <i class="fa-brands fa-at"></i></a></td>
-                    <td><a href="www.instagram.com" style="color: gray;"> Our Instagram <i class="fa-brands fa-instagram"></i></a></td>
-                    <td><a href="www.youtube.com" style="color: gray;"> Our Youtube <i class="fa-brands fa-youtube"></i></a></td>
-                    <td> Our Phone no. <i class="fa-solid fa-phone"></i></td>
-                    <td><a href="www.threads.com" style="color: gray;"> Our Threads <i class="fa-brands fa-threads"></i></a></td>
-                </tr>
-                <tr style="color: gray;">
-                    <td><a href="www.x.com" style="color: gray;"> Our X (formerly twitter) <i class="fa-brands fa-x-twitter"></i></a></td>
-                    <td><a href="www.facebook.com" style="color: gray;"> Our Facebook <i class="fa-brands fa-facebook"></i></a></td>
-                    <td><a href="www.linkedin.com" style="color: gray;"> Our LinkedIn <i class="fa-brands fa-linkedin"></i></a></td>
-                    <td><a href="www.github.com" style="color: gray;"> Our Github <i class="fa-brands fa-github"></i></a></td>
-                    <td><a href="www.whatsapp.com" style="color: gray;"> Our Whatsapp <i class="fa-brands fa-whatsapp"></i></a></td>
-                </tr>
-            </table>
+            <div class="table" style="color: gray;">
+                <div style="color: gray;" class="tr">
+                    <div class="td"><a href="www.mail.google.com" style="color: gray;"> Our Email Account <i class="fa-brands fa-at"></i></a></div>
+                    <div class="td"><a href="www.instagram.com" style="color: gray;"> Our Instagram <i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="td"><a href="www.youtube.com" style="color: gray;"> Our Youtube <i class="fa-brands fa-youtube"></i></a></div>
+                    <div class="td"> Our Phone no. <i class="fa-solid fa-phone"></i></div>
+                    <div class="td"><a href="www.threads.com" style="color: gray;"> Our Threads <i class="fa-brands fa-threads"></i></a></div>
+                </div>
+                <div style="color: gray;" class="tr">
+                    <div class="td"><a href="www.x.com" style="color: gray;"> Our X (formerly twitter) <i class="fa-brands fa-x-twitter"></i></a></div>
+                    <div class="td"><a href="www.facebook.com" style="color: gray;"> Our Facebook <i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="td"><a href="www.linkedin.com" style="color: gray;"> Our LinkedIn <i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="td"><a href="www.github.com" style="color: gray;"> Our Github <i class="fa-brands fa-github"></i></a></div>
+                    <div class="td"><a href="www.whatsapp.com" style="color: gray;"> Our Whatsapp <i class="fa-brands fa-whatsapp"></i></a></div>
+                </div>
+            </div>
+            <br>
+            <div class="ftext">
+                <div class="fh" style="color: gray;">
+                    <center>
+                        Advantages of BoscoBOT<br>
+                    </center>
+                </div>
+                <div class="fadv">
+                    BoscoBOT provides relevant and appropriate answers to any questions visitors may have, making it very straightforward for visitors to learn about the school and also less time consuming. BoscoBOT also assists the visitors in using the website.
+                </div>
+                <br>
+                <div class="fh" style="color: gray;">
+                    <center>
+                        Applications of BoscoBOT<br>
+                    </center>
+                </div>
+                <div class="fappli">
+                    Assuming a parent does not know how to pay the fees, this bot can provide assistance when it comes to the information parents need to pay the fees, how to use the online payment facility or the required steps to follow while paying. Suppose a parent does not know how to talk to the school authorities, this bot can provide the parent the necessary steps required to meet the authorities.
+                </div>
+            </div>
         </div>
     </footer>
 </body>
